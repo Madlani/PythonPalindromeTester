@@ -11,3 +11,11 @@ def palendromeTestEnhanced(stringToTest):
     stringToTest = stringToTest.replace(" ", "")
     print (stringToTest == (stringToTest[::-1]))
 
+def palendromeTestEnhancedUserInput():
+	stringToTest = input("Enter string to test")
+	str(stringToTest)
+	stringToTest = stringToTest.lower()
+	stringToTest = stringToTest.replace(" ", "")
+	print (stringToTest == (stringToTest[::-1]))
+
+palendromeTestEnhancedUserInput()

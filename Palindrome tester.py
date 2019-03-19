@@ -8,6 +8,6 @@ def basicPalindromeTest(stringToTest):
 
 def palendromeTestEnhanced(stringToTest):
     stringToTest = stringToTest.lower()
-    stringToTest = stringToTest.replace(" ", "")#removes spaces
+    stringToTest = stringToTest.replace(" ", "")
     print (stringToTest == (stringToTest[::-1]))
 
